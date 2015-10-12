@@ -1,0 +1,11 @@
+<h1>Bicycle Reviews</h1>
+<p>
+    <a href="/#/add-bike">Add a Bike Review</a>
+</p>
+<ul>
+    <li ng-repeat='bike in bikes'>
+    	<a href="/#/bike/{{bike._id}}">
+    		{{bike.year}} {{bike.brand}} {{bike.model}}
+    	</a>
+    </li>
+</ul>
